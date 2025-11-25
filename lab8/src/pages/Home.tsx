@@ -33,10 +33,10 @@ const Home: React.FC = () => {
                             Быстрое создание курсов, мощная аналитика и вовлекающий контент.
 						</p>
 						<div className="hero-buttons">
-							<Link to="/features" className="btn btn-primary">
+							<Link to="/software-economics-labs/features" className="btn btn-primary">
                                 Узнать больше
 							</Link>
-							<Link to="/contacts" className="btn btn-secondary">
+							<Link to="/software-economics-labs/contacts" className="btn btn-secondary">
                                 Начать бесплатно
 							</Link>
 						</div>

@@ -12,9 +12,9 @@ const App: React.FC = () => (
 			<Header />
 			<main>
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/features" element={<Features />} />
-					<Route path="/contacts" element={<Contacts />} />
+					<Route path="/software-economics-labs/" element={<Home />} />
+					<Route path="/software-economics-labs/features" element={<Features />} />
+					<Route path="/software-economics-labs/contacts" element={<Contacts />} />
 				</Routes>
 			</main>
 			<Footer />
