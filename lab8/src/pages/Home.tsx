@@ -23,7 +23,6 @@ const Home: React.FC = () => {
 
 	return (
 		<div className="page home">
-			{/* Hero Section */}
 			<section className="hero">
 				<div className="container">
 					<div className="hero-content">
@@ -33,10 +32,10 @@ const Home: React.FC = () => {
                             Быстрое создание курсов, мощная аналитика и вовлекающий контент.
 						</p>
 						<div className="hero-buttons">
-							<Link to="/software-economics-labs/features" className="btn btn-primary">
+							<Link to="/features" className="btn btn-primary">
                                 Узнать больше
 							</Link>
-							<Link to="/software-economics-labs/contacts" className="btn btn-secondary">
+							<Link to="/contacts" className="btn btn-secondary">
                                 Начать бесплатно
 							</Link>
 						</div>
@@ -50,7 +49,6 @@ const Home: React.FC = () => {
 				</div>
 			</section>
 
-			{/* Features Preview */}
 			<section className="features-preview">
 				<div className="container">
 					<h2>Почему выбирают iWinter Cloud?</h2>

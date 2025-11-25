@@ -64,7 +64,7 @@ const Features: React.FC = () => {
 				<div className="container">
 					<h2>Готовы начать?</h2>
 					<p>Присоединяйтесь к тысячам компаний, которые уже используют iWinter Cloud</p>
-					<a href="/software-economics-labs/contacts" className="btn btn-primary">Начать бесплатный trial</a>
+					<a href="/contacts" className="btn btn-primary">Начать бесплатный trial</a>
 				</div>
 			</section>
 		</div>
