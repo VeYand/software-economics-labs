@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Contacts from './pages/Contacts'
@@ -12,9 +12,6 @@ const App: React.FC = () => (
 			<Header />
 			<main>
 				<Routes>
-					<Route path="/software-economics-labs/" element={<Home />} />
-					<Route path="/software-economics-labs/features" element={<Features />} />
-					<Route path="/software-economics-labs/contacts" element={<Contacts />} />
 					<Route path="/" element={<Home />} />
 					<Route path="/features" element={<Features />} />
 					<Route path="/contacts" element={<Contacts />} />

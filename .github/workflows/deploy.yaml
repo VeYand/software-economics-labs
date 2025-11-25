@@ -34,6 +34,7 @@ jobs:
           cd lab8
           npm install
           npm run build
+          npm run postbuild
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
